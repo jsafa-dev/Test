@@ -1,0 +1,3 @@
+Validation Rules
+1- S'assurer que la date de fin effective (EffectiveEndDate__c) est supérieure à la date du jour quand le processus de conformité (ComplianceProcess__c) passe à la valeur "Conformité Pub"
+2-Renseigner le champs "MissingInformations__c"  en case d'échec du processus de conformité avec les différentes informations vérifiées par le processus de conformité concerné ("Conformité Pub" ou "Conformité Immo neuf") (rajouter ce traitement dans la classe si c'est possible)
